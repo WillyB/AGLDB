@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: AGL_development
   pool: 5
-  username: AGL
+  #username: AGL
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: AGL_test
   pool: 5
-  username: AGL
+  #username: AGL
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: AGL_production
   pool: 5
-  username: AGL
+  #username: AGL
   password:
